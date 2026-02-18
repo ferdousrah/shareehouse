@@ -21,13 +21,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'shareehouse' );
+define( 'DB_NAME', 'shareehouse_wp_hjjng' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'shareehouse_wp_lc6yj' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '){QFXRcmm[' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost:3306' );
