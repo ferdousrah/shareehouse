@@ -1,0 +1,89 @@
+<?php
+/**
+ * Ecomus Addons Modules functions and definitions.
+ *
+ * @package Ecomus
+ */
+
+namespace Ecomus\Addons\Modules\Multi_Color_Swatches;
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
+/**
+ * Addons Modules
+ */
+class Module {
+
+	/**
+	 * Instance
+	 *
+	 * @var $instance
+	 */
+	private static $instance;
+
+
+	/**
+	 * Initiator
+	 *
+	 * @since 1.0.0
+	 * @return object
+	 */
+	public static function instance() {
+		if ( ! isset( self::$instance ) ) {
+			self::$instance = new self();
+		}
+
+		return self::$instance;
+	}
+
+	/**
+	 * Instantiate the object.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @return void
+	 */
+	public function __construct() {
+		$this->includes();
+		$this->actions();
+	}
+
+	/**
+	 * Includes files
+	 *
+	 * @since 1.0.0
+	 *
+	 * @return void
+	 */
+	private function includes() {
+		\Ecomus\Addons\Auto_Loader::register( [
+			'Ecomus\Addons\Modules\Multi_Color_Swatches\Frontend' => ECOMUS_ADDONS_DIR . 'modules/multi-color-swatches/frontend.php',
+			'Ecomus\Addons\Modules\Multi_Color_Swatches\Settings' => ECOMUS_ADDONS_DIR . 'modules/multi-color-swatches/settings.php',
+		] );
+	}
+
+
+	/**
+	 * Add Actions
+	 *
+	 * @since 1.0.0
+	 *
+	 * @return void
+	 */
+	public function actions() {
+		if ( is_admin() ) {
+			\Ecomus\Addons\Modules\Multi_Color_Swatches\Settings::instance();
+
+			if ( get_option( 'ecomus_multi_color_swatches' ) == 'yes' ) {
+				\Ecomus\Addons\Modules\Multi_Color_Swatches\Term_Meta::instance();
+				\Ecomus\Addons\Modules\Multi_Color_Swatches\Product_Options::instance();
+			}
+		}
+
+		if ( get_option( 'ecomus_multi_color_swatches' ) == 'yes' ) {
+			\Ecomus\Addons\Modules\Multi_Color_Swatches\Frontend::instance();
+		}
+	}
+}

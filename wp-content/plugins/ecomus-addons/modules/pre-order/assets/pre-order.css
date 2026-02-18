@@ -1,0 +1,5 @@
+.ecomus-pre-orders__table th,
+.ecomus-pre-orders__table td {
+    white-space: nowrap;
+    padding: 10px;
+}

@@ -1,0 +1,241 @@
+[08-Feb-2026 15:03:01 UTC] PHP Warning:  simplexml_load_file(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/files/file-types/svg.php on line 161
+[08-Feb-2026 15:03:01 UTC] PHP Warning:  simplexml_load_file(https://shareehouse.com/dev/wp-content/uploads/2024/08/tiktok-1.svg): Failed to open stream: no suitable wrapper could be found in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/files/file-types/svg.php on line 161
+[08-Feb-2026 15:03:01 UTC] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;https://shareehouse.com/dev/wp-content/uploads/2024/08/tiktok-1.svg&quot; in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/files/file-types/svg.php on line 161
+[13-Feb-2026 09:13:33 UTC] PHP Fatal error:  Uncaught TypeError: WC_Order::set_billing_address(): Argument #1 ($address) must be of type array, string given, called in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 430 and defined in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php:1186
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(430): WC_Order->set_billing_address('cha 55/1, north...')
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1336): WC_Checkout->create_order(Array)
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(552): WC_Checkout->process_checkout()
+#3 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::checkout('')
+#4 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(119): do_action('wc_ajax_checkou...')
+#7 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::do_wc_ajax('')
+#8 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(false, Array)
+#9 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#10 /home/shareehouse/public_html/dev/wp-includes/template-loader.php(23): do_action('template_redire...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(19): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 1186
+[13-Feb-2026 09:14:01 UTC] PHP Fatal error:  Uncaught TypeError: WC_Order::set_billing_address(): Argument #1 ($address) must be of type array, string given, called in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 430 and defined in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php:1186
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(430): WC_Order->set_billing_address('cha 55/1, north...')
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1336): WC_Checkout->create_order(Array)
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(552): WC_Checkout->process_checkout()
+#3 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::checkout('')
+#4 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(119): do_action('wc_ajax_checkou...')
+#7 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::do_wc_ajax('')
+#8 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(false, Array)
+#9 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#10 /home/shareehouse/public_html/dev/wp-includes/template-loader.php(23): do_action('template_redire...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(19): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 1186
+[13-Feb-2026 10:36:33 UTC] PHP Fatal error:  Uncaught TypeError: WC_Order::set_billing_address(): Argument #1 ($address) must be of type array, string given, called in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 430 and defined in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php:1186
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(430): WC_Order->set_billing_address('cha 55/1, north...')
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1336): WC_Checkout->create_order(Array)
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(552): WC_Checkout->process_checkout()
+#3 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::checkout('')
+#4 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(119): do_action('wc_ajax_checkou...')
+#7 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::do_wc_ajax('')
+#8 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(false, Array)
+#9 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#10 /home/shareehouse/public_html/dev/wp-includes/template-loader.php(23): do_action('template_redire...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(19): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 1186
+[13-Feb-2026 10:36:51 UTC] PHP Fatal error:  Uncaught TypeError: WC_Order::set_billing_address(): Argument #1 ($address) must be of type array, string given, called in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 430 and defined in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php:1186
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(430): WC_Order->set_billing_address('cha 55/1, north...')
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1336): WC_Checkout->create_order(Array)
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(552): WC_Checkout->process_checkout()
+#3 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::checkout('')
+#4 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(119): do_action('wc_ajax_checkou...')
+#7 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::do_wc_ajax('')
+#8 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(false, Array)
+#9 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#10 /home/shareehouse/public_html/dev/wp-includes/template-loader.php(23): do_action('template_redire...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(19): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 1186
+[13-Feb-2026 10:39:17 UTC] PHP Fatal error:  Uncaught TypeError: WC_Order::set_billing_address(): Argument #1 ($address) must be of type array, string given, called in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 430 and defined in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php:1186
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(430): WC_Order->set_billing_address('cha 55/1, north...')
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1336): WC_Checkout->create_order(Array)
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(552): WC_Checkout->process_checkout()
+#3 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::checkout('')
+#4 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(119): do_action('wc_ajax_checkou...')
+#7 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::do_wc_ajax('')
+#8 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(false, Array)
+#9 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#10 /home/shareehouse/public_html/dev/wp-includes/template-loader.php(23): do_action('template_redire...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(19): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 1186
+[13-Feb-2026 10:42:05 UTC] PHP Fatal error:  Uncaught TypeError: WC_Order::set_billing_address(): Argument #1 ($address) must be of type array, string given, called in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 430 and defined in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php:1186
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(430): WC_Order->set_billing_address('cha 55/1, north...')
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1336): WC_Checkout->create_order(Array)
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(552): WC_Checkout->process_checkout()
+#3 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::checkout('')
+#4 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(119): do_action('wc_ajax_checkou...')
+#7 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::do_wc_ajax('')
+#8 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(false, Array)
+#9 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#10 /home/shareehouse/public_html/dev/wp-includes/template-loader.php(23): do_action('template_redire...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(19): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 1186
+[13-Feb-2026 10:42:53 UTC] PHP Fatal error:  Uncaught TypeError: WC_Order::set_billing_address(): Argument #1 ($address) must be of type array, string given, called in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 430 and defined in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php:1186
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(430): WC_Order->set_billing_address('cha 55/1, north...')
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1336): WC_Checkout->create_order(Array)
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(552): WC_Checkout->process_checkout()
+#3 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::checkout('')
+#4 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(119): do_action('wc_ajax_checkou...')
+#7 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::do_wc_ajax('')
+#8 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(false, Array)
+#9 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#10 /home/shareehouse/public_html/dev/wp-includes/template-loader.php(23): do_action('template_redire...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(19): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 1186
+[13-Feb-2026 10:49:25 UTC] PHP Fatal error:  Uncaught TypeError: WC_Order::set_billing_address(): Argument #1 ($address) must be of type array, string given, called in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 430 and defined in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php:1186
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(430): WC_Order->set_billing_address('cha 55/1, north...')
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1336): WC_Checkout->create_order(Array)
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(552): WC_Checkout->process_checkout()
+#3 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::checkout('')
+#4 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(119): do_action('wc_ajax_checkou...')
+#7 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::do_wc_ajax('')
+#8 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(false, Array)
+#9 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#10 /home/shareehouse/public_html/dev/wp-includes/template-loader.php(23): do_action('template_redire...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(19): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 1186
+[13-Feb-2026 10:59:16 UTC] PHP Fatal error:  Uncaught TypeError: WC_Order::set_billing_address(): Argument #1 ($address) must be of type array, string given, called in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 430 and defined in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php:1186
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(430): WC_Order->set_billing_address('cha 55/1, north...')
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1336): WC_Checkout->create_order(Array)
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(552): WC_Checkout->process_checkout()
+#3 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::checkout('')
+#4 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(119): do_action('wc_ajax_checkou...')
+#7 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::do_wc_ajax('')
+#8 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(false, Array)
+#9 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#10 /home/shareehouse/public_html/dev/wp-includes/template-loader.php(23): do_action('template_redire...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(19): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 1186
+[13-Feb-2026 11:06:18 UTC] PHP Fatal error:  Uncaught TypeError: WC_Order::set_billing_address(): Argument #1 ($address) must be of type array, string given, called in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 430 and defined in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php:1186
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(430): WC_Order->set_billing_address('cha 55/1, north...')
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1336): WC_Checkout->create_order(Array)
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(552): WC_Checkout->process_checkout()
+#3 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::checkout('')
+#4 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(119): do_action('wc_ajax_checkou...')
+#7 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): WC_AJAX::do_wc_ajax('')
+#8 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(false, Array)
+#9 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#10 /home/shareehouse/public_html/dev/wp-includes/template-loader.php(23): do_action('template_redire...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(19): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 1186
+[15-Feb-2026 15:59:46 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/includes/plugin.php(703): Elementor\Core\Modules_Manager->__construct()
+#4 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/includes/plugin.php(621): Elementor\Plugin->init_components()
+#5 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /home/shareehouse/public_html/dev/wp-settings.php(742): do_action('init')
+#9 /home/shareehouse/public_html/dev/wp-config.php(100): require_once('/home/shareehou...')
+#10 /home/shareehouse/public_html/dev/wp-load.php(50): require_once('/home/shareehou...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(13): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[15-Feb-2026 15:59:46 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/includes/plugin.php(703): Elementor\Core\Modules_Manager->__construct()
+#4 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/includes/plugin.php(621): Elementor\Plugin->init_components()
+#5 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /home/shareehouse/public_html/dev/wp-settings.php(742): do_action('init')
+#9 /home/shareehouse/public_html/dev/wp-config.php(100): require_once('/home/shareehou...')
+#10 /home/shareehouse/public_html/dev/wp-load.php(50): require_once('/home/shareehou...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(13): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[15-Feb-2026 15:59:46 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/includes/plugin.php(703): Elementor\Core\Modules_Manager->__construct()
+#4 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/includes/plugin.php(621): Elementor\Plugin->init_components()
+#5 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /home/shareehouse/public_html/dev/wp-settings.php(742): do_action('init')
+#9 /home/shareehouse/public_html/dev/wp-config.php(100): require_once('/home/shareehou...')
+#10 /home/shareehouse/public_html/dev/wp-load.php(50): require_once('/home/shareehou...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(13): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[15-Feb-2026 15:59:47 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/includes/plugin.php(703): Elementor\Core\Modules_Manager->__construct()
+#4 /home/shareehouse/public_html/dev/wp-content/plugins/elementor/includes/plugin.php(621): Elementor\Plugin->init_components()
+#5 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /home/shareehouse/public_html/dev/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /home/shareehouse/public_html/dev/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /home/shareehouse/public_html/dev/wp-settings.php(742): do_action('init')
+#9 /home/shareehouse/public_html/dev/wp-config.php(100): require_once('/home/shareehou...')
+#10 /home/shareehouse/public_html/dev/wp-load.php(50): require_once('/home/shareehou...')
+#11 /home/shareehouse/public_html/dev/wp-blog-header.php(13): require_once('/home/shareehou...')
+#12 /home/shareehouse/public_html/dev/index.php(17): require('/home/shareehou...')
+#13 {main}
+  thrown in /home/shareehouse/public_html/dev/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
